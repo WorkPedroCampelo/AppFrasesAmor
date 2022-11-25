@@ -13,7 +13,7 @@ function contador() {
     }
 
     // Generate a random number between 1 and 10 (including 1 and 10)
-    var randomNum = randomNumber(1, 12);
+    var randomNum = randomNumber(1, 13);
     console.log(randomNum);
 
     numFrase = randomNum;
