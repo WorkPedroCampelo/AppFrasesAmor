@@ -1,0 +1,50 @@
+.mainDiv{
+    border-style: double;
+    height: max-content;
+}
+
+
+.mainText {
+    margin: 5%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: aliceblue;
+    text-align: center;
+}
+
+.subMainText {
+    margin: 2%;
+    text-align: center;
+}
+
+.textoBonito {
+    margin-top: 20%;
+    margin: 5%;
+    border-style: double;
+    border-width: 2px;
+    height: 60px;
+    border-color: blueviolet;
+    text-align: center;
+    padding: 7%;
+    position: relative;
+
+
+}
+
+.divTextoBonito{
+    margin-bottom: 10%;
+}
+
+.botonchidorro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25%;
+    
+}
+
+.lastDiv{
+    margin: 5%;
+    border-style: double;
+    text-align: center;
+}
