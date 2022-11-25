@@ -1,3 +1,9 @@
+button{
+    float: right;
+    visibility: hidden;
+    /*border: 0px;*/
+}
+
 .mainDiv{
     border-style: double;
     height: max-content;

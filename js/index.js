@@ -98,14 +98,14 @@ function contador() {
             document.getElementById("contadorFrases").innerHTML = contadorFrasesTexto;
             break;
         case 12:
-            frase = "No te habras vuelto a quedar dormida no, pedaso de vácula?";
+            frase = "Quieres un regalo? mira bien la app...";
             document.getElementById("fraseBonita").innerHTML = frase;
             contadorFrases = 12;
             contadorFrasesTexto = "Número de frase = " + contadorFrases;
             document.getElementById("contadorFrases").innerHTML = contadorFrasesTexto;
             break;
         case 13:
-            frase = "";
+            frase = "No te habras vuelto a quedar dormida no, pedaso de vácula?";
             document.getElementById("fraseBonita").innerHTML = frase;
             contadorFrases = 13;
             contadorFrasesTexto = "Número de frase = " + contadorFrases;
@@ -240,6 +240,28 @@ function contador() {
             document.getElementById("contadorFrases").innerHTML = contadorFrasesTexto;
             break;
     }
-}
-//falta hacer que frase pille numero aletorio y este de un mensaje que se aplique al parrafo con id "frase bonita"
 
+
+}
+/*
+############################################################################################################################
+################################    AQUI ESTARÍA BIEN PONER UN BOTON "EASTER EGG" EL CUAL   ################################
+################################    APAREZCA SOLO CUANDO NUMFRASE == 12, ESTE TE LLEVARIA   ################################
+################################    A UN PROMPT QUE HARÍA UNA PREGUNTA, EN CASO DE SER      ################################
+################################    RESPONDIDA.... REGALO!                                  ################################
+############################################################################################################################
+*/
+
+/*
+if(numFrase<100){
+    alert("hola")
+    document.getElementById("easterEgg").style.visibility="visible";
+}
+*/
+
+/*
+function easterEgg() {
+    prompt(document.getElementById("contadorFrases").innerHTML);
+}
+
+*/
