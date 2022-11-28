@@ -254,8 +254,11 @@ function contador() {
 
 
 if(numFrase<100){
-    prompt("Fecha de aniversario?")
-    document.getElementById("easterEgg").style.visibility="visible";
+    var boton1= document.getElementById("easterEgg")
+    prompt("Fecha de aniversario?");
+    console.log(document.getElementById("easterEgg"));
+    boton1.style.visibility = "visible";
+    
 }
 
 
