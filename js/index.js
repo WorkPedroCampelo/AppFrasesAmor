@@ -252,12 +252,12 @@ function contador() {
 ############################################################################################################################
 */
 
-/*
+
 if(numFrase<100){
-    alert("hola")
+    prompt("Fecha de aniversario?")
     document.getElementById("easterEgg").style.visibility="visible";
 }
-*/
+
 
 /*
 function easterEgg() {
