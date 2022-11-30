@@ -217,14 +217,14 @@ function contador() {
             document.getElementById("contadorFrases").innerHTML = contadorFrasesTexto;
             break;
         case 29:
-            frase = "";
+            frase = "Te has vuelto a quedar dormida? tira pa clase, VAGA";
             document.getElementById("fraseBonita").innerHTML = frase;
             contadorFrases = 29;
             contadorFrasesTexto = "Número de frase = " + contadorFrases;
             document.getElementById("contadorFrases").innerHTML = contadorFrasesTexto;
             break;
         case 30:
-            frase = "";
+            frase = "App creada cuando llevabamos 1 añito y 8 mesitos ... \n O eran 7 ?";
             document.getElementById("fraseBonita").innerHTML = frase;
             contadorFrases = 30;
             contadorFrasesTexto = "Número de frase = " + contadorFrases;
