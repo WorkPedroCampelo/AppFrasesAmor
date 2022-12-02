@@ -263,7 +263,7 @@ if(numFrase<100){
 }
 
 function easterEgg() {
-    alert("HOLA WENAS DE NUEVO");
+    alert("HOLA WENAS MI AMOR, AUN NO DEBERIAS ESTAR VIENDO ESTO AAAA");
     document.getElementById("easterEgg").style.visibility = "hidden"; 
 }
 
