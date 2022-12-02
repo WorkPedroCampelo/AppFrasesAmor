@@ -254,17 +254,24 @@ function contador() {
 
 
 if(numFrase<100){
+    alert("HOLA WENAS")
     var boton1= document.getElementById("easterEgg")
-    prompt("Fecha de aniversario?");
+    
     console.log(document.getElementById("easterEgg"));
     boton1.style.visibility = "visible";
     
+}
+
+function easterEgg() {
+    alert("HOLA WENAS DE NUEVO");
+    document.getElementById("easterEgg").style.visibility = "hidden"; 
 }
 
 
 /*
 function easterEgg() {
     prompt(document.getElementById("contadorFrases").innerHTML);
+    prompt("Fecha de aniversario?");
 }
 
 */
