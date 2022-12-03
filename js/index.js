@@ -241,6 +241,12 @@ function contador() {
             break;
     }
 
+    if(numFrase!=12){
+        document.getElementById("easterEgg").style.visibility="visible";
+        
+    }else
+    document.getElementById("easterEgg").style.visibility="hidden";
+
 
 }
 /*
@@ -253,22 +259,23 @@ function contador() {
 */
 
 
-if(numFrase<100){
-    alert("HOLA WENAS")
-    var boton1= document.getElementById("easterEgg").style.visibility="visible";
-    
-}
 
 function easterEgg() {
+
+    /*
+    Esto podria estar dividido en tres preguntas diferente sque se ejecutene en tres frases diferentes
+    las tes juntas, enseñan un código.
+    */ 
     alert("HOLA WENAS MI AMOR, AUN NO DEBERIAS ESTAR VIENDO ESTO AAAA");
+    var respuesta1=0;
+    respuesta1= prompt("Nuestro día del mes?");
+    //alert(respuesta1);
+    //prompt("Nombre de nuestro hijo?");
+    //prompt("")
     document.getElementById("easterEgg").style.visibility = "hidden"; 
+
+    if(respuesta1==12){
+        document.getElementById("divEasterEgg").style.display = "block"; 
+    }
 }
 
-
-/*
-function easterEgg() {
-    prompt(document.getElementById("contadorFrases").innerHTML);
-    prompt("Fecha de aniversario?");
-}
-
-*/

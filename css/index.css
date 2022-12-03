@@ -1,7 +1,12 @@
 .easterEgg{
-    float: right;
+    margin: auto;
     visibility: hidden;
     /*border: 0px;*/
+}
+
+.divEasterEgg{
+    display: none;
+
 }
 
 .mainDiv{
