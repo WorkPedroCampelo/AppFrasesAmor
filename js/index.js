@@ -255,9 +255,7 @@ function contador() {
 
 if(numFrase<100){
     alert("HOLA WENAS")
-    var boton1= document.getElementById("easterEgg")
-    
-    console.log(document.getElementById("easterEgg"));
+    var boton1= document.getElementById("easterEgg").style.visibility="visible;"
     boton1.style.visibility = "visible";
     
 }
