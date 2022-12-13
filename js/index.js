@@ -13,7 +13,7 @@ function contador() {
     }
 
     // Generate a random number between 1 and 10 (including 1 and 10)
-    var randomNum = randomNumber(1, 13);
+    var randomNum = randomNumber(1, 30);
     console.log(randomNum);
 
     numFrase = randomNum;
@@ -266,16 +266,18 @@ function easterEgg() {
     Esto podria estar dividido en tres preguntas diferente sque se ejecutene en tres frases diferentes
     las tes juntas, enseñan un código.
     */ 
-    alert("HOLA WENAS MI AMOR, AUN NO DEBERIAS ESTAR VIENDO ESTO AAAA");
+
+    alert("Esto está en pruebas");
     var respuesta1=0;
     respuesta1= prompt("Nuestro día del mes?");
-    //alert(respuesta1);
-    //prompt("Nombre de nuestro hijo?");
-    //prompt("")
+    
     document.getElementById("easterEgg").style.visibility = "hidden"; 
-
     if(respuesta1==12){
-        document.getElementById("divEasterEgg").style.display = "block"; 
-    }
+        document.getElementById("easterEgg").style.visibility = "hidden"; 
+        alert("Correcto, regalo desbloqueado ");
+        document.getElementById("divEasterEgg").style.visibility = "visible"; 
+
+    } else alert("Como has podido equivocarte?");
+     
 }
 

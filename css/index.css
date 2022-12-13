@@ -1,12 +1,16 @@
 .easterEgg{
     margin: auto;
     visibility: hidden;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
     /*border: 0px;*/
 }
 
 .divEasterEgg{
-    display: none;
 
+    visibility: hidden; 
+    font-weight: bold;
 }
 
 .mainDiv{
