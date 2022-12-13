@@ -11,6 +11,8 @@
 
     visibility: hidden; 
     font-weight: bold;
+    display: none;
+
 }
 
 .mainDiv{
@@ -50,7 +52,7 @@
     margin-bottom: 10%;
 }
 
-.botonchidorro {
+.botonChidorro {
     display: flex;
     align-items: center;
     justify-content: center;
