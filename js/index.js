@@ -251,10 +251,10 @@ function contador() {
     }
 
     if (numFrase == 12) {
-        document.getElementById("easterEgg").style.visibility = "visible";
+        document.getElementById("easterEggBoton").style.visibility = "visible";
 
     } else
-        document.getElementById("easterEgg").style.visibility = "hidden";
+        document.getElementById("easterEggBoton").style.visibility = "hidden";
 
 
         if (numFrase==25){
@@ -277,19 +277,14 @@ function contador() {
 
 function easterEgg() {
 
-    /*
-    Esto podria estar dividido en tres preguntas diferente sque se ejecutene en tres frases diferentes
-    las tes juntas, enseñan un código.
-    */
 
-    alert("Esto está en pruebas");
     var respuesta1 = 0;
     respuesta1 = prompt("Nuestro día del mes?");
 
-    document.getElementById("easterEgg").style.visibility = "hidden";
+    document.getElementById("easterEggBoton").style.visibility = "hidden";
     if (respuesta1 == 12) {
-        document.getElementById("easterEgg").style.visibility = "hidden";
-        document.getElementById("easterEgg").style.display = "none";
+        document.getElementById("easterEggBoton").style.visibility = "hidden";
+        document.getElementById("easterEggBoton").style.display = "none";
         alert("Correcto, regalo desbloqueado ");
         document.getElementById("divEasterEgg").style.visibility = "visible";
         document.getElementById("divEasterEgg").style.display = "block";
@@ -297,7 +292,7 @@ function easterEgg() {
 
     } else {
         alert("Como has podido equivocarte?");
-        document.getElementById("easterEgg").style.visibility = "hidden";
+        document.getElementById("easterEggBoton").style.visibility = "hidden";
     }
 
 }
